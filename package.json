@@ -1,0 +1,16 @@
+{
+  "name": "personalbot",
+  "version": "1.0.0",
+  "description": "Bot to automate Instagram",
+  "main": "index.js",
+  "scripts": {
+    "start": "(clear || cls) && node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Ashish Antil",
+  "license": "MIT",
+  "dependencies": {
+    "@androz2091/insta.js": "^1.6.1",
+    "chalk": "^5.3.0"
+  }
+}
