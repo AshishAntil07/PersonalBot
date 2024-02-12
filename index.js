@@ -27,7 +27,7 @@ process.on('uncaughtException', (err) => {
 
   // On connection to Instagram.
   client.on('connected', () => {
-    logger(`\n${bgGreen('Connected to Instagram!')}\n\t${bold(orange('As:'))} ${client.user.username}\n`);
+    logger(`\n${bgGreen('Connected to Instagram!')}\n  ${bold(orange('As:'))} ${client.user.username}\n`);
   })
 
   const greet = ['hello', 'hi', 'aur basanti', 'hey', 'hola', 'namaste', 'hlo'];
