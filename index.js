@@ -15,7 +15,7 @@ function logger(...message){
 }
 
 process.on('uncaughtException', (err) => {
-  logger(`\n${'Uncaught Exception!'}\n${err.stack}\n`);
+  logger(`\n${'Uncaught Exception: '+err.name}\n${err.message}\n${err.stack}\n`);
 
   process.exit(1);
 });
